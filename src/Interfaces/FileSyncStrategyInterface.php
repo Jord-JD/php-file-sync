@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\FileSync\Interfaces;
+namespace JordJD\FileSync\Interfaces;
 
 interface FileSyncStrategyInterface
 {

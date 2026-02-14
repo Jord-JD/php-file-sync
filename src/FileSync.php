@@ -1,9 +1,9 @@
 <?php
 
-namespace DivineOmega\FileSync;
+namespace JordJD\FileSync;
 
-use DivineOmega\FileSync\FileSyncStrategies\MultiDirectional;
-use DivineOmega\FileSync\FileSyncStrategies\OneWay;
+use JordJD\FileSync\FileSyncStrategies\MultiDirectional;
+use JordJD\FileSync\FileSyncStrategies\OneWay;
 
 class FileSync
 {

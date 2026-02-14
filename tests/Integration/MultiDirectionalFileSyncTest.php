@@ -1,8 +1,8 @@
 <?php
 
-namespace DivineOmega\FileSync\Tests;
+namespace JordJD\FileSync\Tests;
 
-use DivineOmega\FileSync\FileSync;
+use JordJD\FileSync\FileSync;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
 use PHPUnit\Framework\TestCase;

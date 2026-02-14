@@ -1,11 +1,11 @@
 <?php
 
-namespace DivineOmega\FileSync\FileSyncStrategies;
+namespace JordJD\FileSync\FileSyncStrategies;
 
-use DivineOmega\CliProgressBar\ProgressBar;
-use DivineOmega\FileSync\FileListing\FileListingFactory;
-use DivineOmega\FileSync\FileListing\TransferActionFactory;
-use DivineOmega\FileSync\Interfaces\FileSyncStrategyInterface;
+use JordJD\CliProgressBar\ProgressBar;
+use JordJD\FileSync\FileListing\FileListingFactory;
+use JordJD\FileSync\FileListing\TransferActionFactory;
+use JordJD\FileSync\Interfaces\FileSyncStrategyInterface;
 use League\Flysystem\Filesystem;
 
 class MultiDirectional implements FileSyncStrategyInterface

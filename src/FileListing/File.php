@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\FileSync\FileListing;
+namespace JordJD\FileSync\FileListing;
 
 use Carbon\Carbon;
 use Exception;
