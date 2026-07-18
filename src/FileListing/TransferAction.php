@@ -20,6 +20,17 @@ class TransferAction
     public function transfer(): bool
     {
         $stream = $this->sourceFilesystem->readStream($this->path);
-        return $this->destinationFilesystem->putStream($this->path, $stream);
+
+        if ($stream === false) {
+            return false;
+        }
+
+        try {
+            return $this->destinationFilesystem->putStream($this->path, $stream);
+        } finally {
+            if (is_resource($stream)) {
+                fclose($stream);
+            }
+        }
     }
 }
